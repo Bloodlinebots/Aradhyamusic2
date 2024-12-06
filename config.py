@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_RADHE7_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","unbornedvillian")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","RADHE_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME","zeus_MUSIC_ROBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6726372149))
+OWNER_ID = int(getenv("OWNER_ID", 1801994649))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Radhe0777/Zoyu1radhe",
+    "https://github.com/Bloodlinebots/Aradhyamusic2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -90,10 +90,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ruyh1i.jpg"
+    "START_IMG_URL", "https://graph.org/file/d26c92f28a96d8bec37f3-9ef67d72e64c03acfc.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/nvp.jpg"
+    "PING_IMG_URL", "https://graph.org/file/7b79282b2b3e847644ab2-da2f59b015f502f2e4.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/9acd828ec45a363add2e9.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/yfvai0.jpg"
