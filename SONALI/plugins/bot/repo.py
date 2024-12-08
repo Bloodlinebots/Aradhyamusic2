@@ -6,16 +6,15 @@ from SONALI.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-start_txt = """
-✰ 𝗪ᴇʟᴄᴏᴍᴇ ᴛᴏ 𝗥ᴇᴘᴏs ✰
- 
-✰ 𝗥ᴇᴘᴏ ᴛᴏ 𝗡ʜɪ 𝗠ɪʟᴇɢᴀ 𝗬ʜᴀ
- 
-✰ 𝗣ᴀʜʟᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ 𝗥ᴇᴘᴏ 𝗢ᴡɴᴇʀ ᴋᴏ 
+start_txt = """       Ｗｅｌｃｏｍｅ　ｔｏ　ｒｅｐｏ
 
-✰ || @ll_RADHE7_ll ||
- 
-✰ 𝗥ᴜɴ 24x7 𝗟ᴀɢ 𝗙ʀᴇᴇ 𝗪ɪᴛʜᴏᴜᴛ 𝗦ᴛᴏᴘ
+1. “You must be the change you wish to see in the world.”
+
+2. “Spread love everywhere you go. Let no one ever come to you without leaving happier.”
+
+3. “The only thing we have to fear is fear itself.”
+
+4. “Do one thing every day that scares you.” 
  
 """
 
@@ -30,7 +29,7 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗗𝗽_𝗰𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻", url="https://t.me/DP_WORLD7"),
-          InlineKeyboardButton("𝗥𝗔𝗗𝗛𝗘", url="https://t.me/ll_RADHE7_ll"),
+          InlineKeyboardButton("ᵐⁱˢˢ🦋ᴀ ʀ ᴀ ᴅ ʜ ʏ ᴀ", url="https://t.me/ARADHYA_ASISTANT"),
           ],
                [
                 InlineKeyboardButton("𝗧ᴇᴀᴍ 𝗜ɴᴄʀɪᴄɪʙʟᴇ 𝗕ᴏᴛs", url=f"https://t.me/ll_BOTCHAMBER_ll"),
@@ -43,7 +42,7 @@ InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/zeus_MUSIC_ROB
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://envs.sh/nvp.jpg",
+        photo="https://graph.org/file/6b113497feeae0968785e-bc3f1b4d6fd3a18755.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
